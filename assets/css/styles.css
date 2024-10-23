@@ -4,8 +4,8 @@
     --header-height: 3.5rem;
 
 
-    --hue: 88;
-    --first-color: hsl(var(--hue), 70%, 24%);
+    --hue: 172;
+    --first-color: hsl(var(--hue), 83%, 25%) ;
     --first-color-alt: hsl(var(--hue), 56%, 35%);
     --title-color: hsl(228, 8%, 95%);
     --text-color: hsl(228, 8%, 65%);
@@ -273,6 +273,5 @@ img{
 }
 
 .home__img{
-    width: 900px;
-    transform: translate(-187px, 75px)
+    transform: translate(-25px, 60px)
 }
