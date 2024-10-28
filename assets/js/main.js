@@ -92,3 +92,17 @@ const scrollActive = () => {
   });
 };
 window.addEventListener("scroll", scrollActive);
+
+const scr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 200,
+  reset: true,
+});
+
+scr.reveal(`.home__data, .home__social, .contact__container, .footer__container`);
+scr.reveal(`.home__image`, { origin: "bottom" });
+scr.reveal(`.about__data, skills__data`, { origin: "left" });
+scr.reveal(`.about__image, skills__content`, { origin: "right" });
+scr.reveal(`.services__card, .projects__card`, { interval: 100 });
